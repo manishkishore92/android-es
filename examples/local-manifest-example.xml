@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com" />
+
+  <project name="manishkishore92/android_device_xiaomi_sweet"
+           path="device/xiaomi/sweet"
+           remote="github"
+           revision="lineage-22.2" />
+
+  <project name="manishkishore92/android_kernel_xiaomi_sweet"
+           path="kernel/xiaomi/sweet"
+           remote="github"
+           revision="lineage-22.2" />
+
+  <project name="manishkishore92/proprietary_vendor_xiaomi_sweet"
+           path="vendor/xiaomi/sweet"
+           remote="github"
+           revision="lineage-22.2" />
+</manifest>
