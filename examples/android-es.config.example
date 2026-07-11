@@ -1,0 +1,24 @@
+# Android ES main config
+
+ROM_NAME="LineageOS"
+ROM_BRANCH="lineage-22.2"
+MANIFEST_URL="https://github.com/LineageOS/android.git"
+ANDROID_ROOT="$HOME/android/lineage"
+
+DEVICE_CODENAME="sweet"
+DEVICE_BRAND="xiaomi"
+DEVICE_PROFILE="sweet"
+LUNCH_TARGET="lineage_sweet-userdebug"
+BUILD_COMMAND="mka bacon"
+JOBS="8"
+
+DEVICE_TREE="$ANDROID_ROOT/device/xiaomi/sweet"
+VENDOR_TREE="$ANDROID_ROOT/vendor/xiaomi/sweet"
+KERNEL_TREE="$ANDROID_ROOT/kernel/xiaomi/sweet"
+KERNEL_DEFCONFIG="vendor/sweet_defconfig"
+KERNEL_ARCH="arm64"
+KERNEL_SUBARCH="arm64"
+KERNEL_OUT="out"
+
+ANYKERNEL_DIR="$HOME/android/AnyKernel3"
+ROM_TYPE="UNOFFICIAL"
