@@ -1,0 +1,11 @@
+# Save as profiles/sweet.conf and adjust values for your device
+
+DEVICE_CODENAME="sweet"
+DEVICE_BRAND="xiaomi"
+LUNCH_TARGET="lineage_sweet-userdebug"
+DEVICE_TREE="$ANDROID_ROOT/device/xiaomi/sweet"
+VENDOR_TREE="$ANDROID_ROOT/vendor/xiaomi/sweet"
+KERNEL_TREE="$ANDROID_ROOT/kernel/xiaomi/sweet"
+KERNEL_DEFCONFIG="vendor/sweet_defconfig"
+KERNEL_ARCH="arm64"
+KERNEL_SUBARCH="arm64"
